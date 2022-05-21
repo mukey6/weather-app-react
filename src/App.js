@@ -1,6 +1,10 @@
 import React from 'react';
+const api = {
+  key:'0fb48fb704090281a9b83e51e7d0084b',
+  base:'https://api.openweathermap.org/data/2.5/weather?q='
 
-
+}
+// {base}{city}&units=imperial&appid={key} {}
 function App() {
   return (
     <div className="App">
@@ -12,9 +16,9 @@ function App() {
           <div className='city'> mpls</div>
           <div className='date'>5/6/2020</div>
         </div>
-        <div className='weather'>
+        <div className='weather-box'>
           <div>15degrees</div>
-          <div></div>
+          <div className='weather'>sunny</div>
 
         </div>
       </main>
